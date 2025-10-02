@@ -21,6 +21,7 @@ public class MavenGitJenkinsExecution {
 		System.out.println(driver.findElement(By.id("APjFqb")).getAttribute("maxlength"));
 		System.out.println(driver.getTitle());
 		System.out.println("green");
+		System.out.println("red");
 		
 	}
 	
