@@ -20,6 +20,7 @@ public class MavenGitJenkinsExecution {
 		driver.get("https://www.google.com/");
 		System.out.println(driver.findElement(By.id("APjFqb")).getAttribute("maxlength"));
 		System.out.println(driver.getTitle());
+		System.out.println("green");
 		
 	}
 	
